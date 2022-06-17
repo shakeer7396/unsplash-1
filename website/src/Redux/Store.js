@@ -1,8 +1,8 @@
 import { legacy_createStore as createStore ,applyMiddleware,compose,combineReducers} from "redux";
 import { getDataReducer } from "./Products/Reducer";
 import thunk from 'redux-thunk';
-// import { signUpReducer } from "./Signup/reducer";
-// import { loginReducer } from "./Login/reducer";
+import { signUpReducer } from "./Signup/reducer";
+import { loginReducer } from "./Login/reducer";
 
 const composeEnhancers =
   typeof window === 'object' &&
@@ -15,7 +15,7 @@ const enhancer = composeEnhancers(
   applyMiddleware(thunk),
   // other store enhancers if any
 );
-const rootReducer = combineReducers({getDataReducer})
+const rootReducer = combineReducers({loginState:loginReducer,signupState:signUpReducer,getDataReducer})
 
 
 
