@@ -41,6 +41,7 @@ const Registration = () => {
 
   return (
     <div>
+
            <div className='outer'>
            <div className='inner'>
         {login ? (
