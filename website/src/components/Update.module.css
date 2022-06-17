@@ -1,0 +1,52 @@
+
+.top {
+    height: 700px;
+    width:100%;
+    background-image: 
+    url(
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZTf7BmLST_nXYXTpWropGo_OjqtxK0I0zkg&usqp=CAU");
+    background-size: cover;
+    padding-top: 150px;
+    background-repeat:no-repeat; 
+    margin-bottom:50px;
+    
+  }
+  .nav1a{
+    background-color:1px solid whitesmoke;
+    width:850px;
+    /* margin-left: 30px; */
+    border-radius: 15px;
+    display:flex;
+    height: 40px;
+    align-items: center;
+  }
+  /* .logo{
+    margin-left: 20px;
+  } */
+  .searchbar{
+    width:100%;
+    border:white;
+    color:black;
+    height:35px;
+    font-size: 16px;
+  }
+  *:focus {
+    outline: none;
+  }
+  .top1{
+    /* border:1px solid blue; */
+    width:900px;
+    margin-left: 20%;
+    padding-top: 50px;
+    color:whitesmoke ;
+  }
+  h1{
+    font-size: 50px;
+  }
+
+  .lastline{
+    display:flex;
+    justify-content:space-between;
+    color:whitesmoke;
+    margin-top: 170px;
+  }
